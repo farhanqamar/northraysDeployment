@@ -3,7 +3,7 @@ import recbg from "../../../public/recbg.svg";
 import Image from "next/image";
 import ai from "../../../public/AI.png";
 import Navbar from "@/components/Navbar/Navbar";
-const Portfolio = () => {
+const page = () => {
   const data = [
     {
       title: "AI-Driven Law GPT",
@@ -75,4 +75,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default page;

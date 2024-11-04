@@ -7,7 +7,7 @@ import Explore from "@/components/service/Explore";
 import Security from "@/components/service/Security";
 
 
-const Service = () => {
+const page = () => {
   return (
     <div className="space-y-20 overflow-hidden">
       <Banner
@@ -53,4 +53,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default page;
