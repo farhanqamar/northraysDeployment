@@ -2,9 +2,13 @@
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AOS from 'aos';
-// import Page from './home/page';
-import dynamic from 'next/dynamic';
-const Hoome = dynamic(() => import("@/app/home/page"), { ssr: false });
+import Hero from "@/components/home/Hero";
+import AboutUs from "@/components/home/AboutUs";
+import Services from "@/components/home/Services";
+import Technology from "@/components/home/Technology";
+import Featured from "@/components/home/Featured";
+import Contacts from "@/components/home/Contacts";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -25,7 +29,13 @@ export default function Home() {
 
   return (
     <>
-      <Hoome />
+      <Hero />
+      <AboutUs />
+      <Services />
+      <Technology />
+      <Featured />
+      <Contacts />
+      <Footer />
     </>
   );
 }
