@@ -1,4 +1,4 @@
-import service_img from "../../../public/service_img.webp"
+import service_img from "../../../../public/service_img.webp";
 
 
 export const serviceDetail = [

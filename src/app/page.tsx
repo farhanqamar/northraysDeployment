@@ -1,11 +1,11 @@
 "use client"; // Ensure this is at the top for client-side components
 import { useEffect } from 'react';
-import Hero from "@/components/home/Hero";
-import AboutUs from "@/components/home/AboutUs";
-import Services from "@/components/home/Services";
-import Technology from "@/components/home/Technology";
-import Featured from "@/components/home/Featured";
-import Contacts from "@/components/home/Contacts";
+import Hero from "./components/home/Hero";
+import AboutUs from "./components/home/AboutUs";
+import Services from "./components/home/Services";
+import Technology from "./components/home/Technology";
+import Featured from "./components/home/Featured";
+import Lontacts from "./components/home/Contacts";
 import Footer from "@/components/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -34,7 +34,7 @@ export default function Home() {
       <Services />
       <Technology />
       <Featured />
-      <Contacts />
+      <Lontacts />
       <Footer />
     </>
   );

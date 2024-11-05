@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import aboutBgImage from "../../../public/s-shape-opacity.png";
+import aboutBgImage from "../../../../public/s-shape-opacity.png";
 import { aboutdetail } from "./ServicesDetail";
 
 const AboutUs = () => {

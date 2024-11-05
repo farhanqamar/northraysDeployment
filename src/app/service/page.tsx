@@ -1,10 +1,10 @@
 import React from "react";
-import Banner from "@/components/service/Banner";
-import GetStarted from "@/components/service/GetStarted";
-import Fields from "@/components/service/Fields";
+import Banner from "@/app/components/service/Banner";
+import GetStarted from "@/app/components/service/GetStarted";
+import Fields from "@/app/components/service/Fields";
+import Explore from "@/app/components/service/Explore";
+import Security from "@/app/components/service/Security";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Explore from "@/components/service/Explore";
-import Security from "@/components/service/Security";
 
 
 const page = () => {

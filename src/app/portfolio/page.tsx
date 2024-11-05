@@ -43,10 +43,8 @@ const page = () => {
     <>
       <div
         className="bg-cover bg-center mx-auto text-black "
-        style={{ backgroundImage: `url(${recbg.src})` }}
-      >
+        style={{ backgroundImage: `url(${recbg.src})` }}>
         <Navbar />
-
         <div className="mx-auto w-[1400px] pt-20">
           <h3 className="font-bold text-[42px] w-3/5">
             Experience the transformative results of our expertly executed
@@ -56,12 +54,12 @@ const page = () => {
         <div className="flex flex-wrap justify-evenly w-4/5 m-auto pt-10">
           {data.map((item, index) => (
             <div key={index} className="text-[42px] w-1/2 mb-10 px-10">
-                <Image
-                  src={item.image}
-                  alt={item.alt}
-                  sizes=""
-                  className="rounded-[20px] w-full"
-                />
+              <Image
+                src={item.image}
+                alt={item.alt}
+                sizes=""
+                className="rounded-[20px] w-full"
+              />
               <h3 className="pt-5 text-[24px] px-5 font-bold">{item.title}</h3>
               <p className="text-[14px] px-5">{item.description}</p>
               <button className="bg-black text-[18px] text-white rounded-[40px] mx-5 px-6 py-2 hover:bg-white hover:text-black">
