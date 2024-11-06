@@ -67,7 +67,7 @@ const Footer = () => {
 
       </div>
 
-      <div className="max-w-4xl mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-4 lg:space-y-0">
+      <div className="md:w-3/6 mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-4 lg:space-y-0">
 
         {/* Subscribe Section */}
         <div className="flex flex-col items-center lg:items-start">

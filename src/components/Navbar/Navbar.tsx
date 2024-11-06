@@ -47,6 +47,8 @@ const Navbar = () => {
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown
                                         imgBoxHeading={`Blog`}
+                                        route='/blog'
+
                                     />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
@@ -57,6 +59,8 @@ const Navbar = () => {
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown
                                         imgBoxHeading={`Contact`}
+                                        route='/contact'
+
                                     />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
