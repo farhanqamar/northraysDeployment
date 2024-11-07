@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Navbar from "../../components/Navbar/Navbar";
+// import Navbar from "../../components/Navbar/Navbar";
 import {
   FaLinkedin,
   FaFacebookF,
@@ -24,7 +24,7 @@ const Page = () => {
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <h2 className="text-white text-4xl font-bold">Contact Us</h2>
         </div>
-        <Navbar />
+        {/* <Navbar /> */}
       </section>
       <section className="bg-black">
         <div className="w-5/6 m-auto py-20">

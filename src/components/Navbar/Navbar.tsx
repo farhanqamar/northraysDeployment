@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="lg:flex justify-between items-center p-3 h-16 z-40">
+            <nav className="lg:flex justify-between items-center p-3 h-16 z-40 bg-black">
                 <div className='lg:flex justify-between items-center h-16 lg:w-[1450px] mx-auto'>
                     
                         <div className='flex justify-between items-center'>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     closeState={() => setIsOpen(!isOpen)}
                 />
             </div>
-            <span className='relative bottom-1'> <hr /> </span>
+            {/* <span className='relative bottom-1'> <hr /> </span> */}
         </>
     );
 };

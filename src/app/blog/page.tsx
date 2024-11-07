@@ -77,7 +77,7 @@ const Page = () => {
           </h1>
         </div>
       </div>
-      <section className="flex w-5/6 justify-evenly mx-auto py-60">
+      <section className="flex w-5/6 justify-evenly mx-auto py-20">
         <div className="grid grid-cols-2 gap-6">
           {arrayImg.map((item, index) => (
             <div key={index} className="flex flex-col border rounded-md">
@@ -132,8 +132,10 @@ const Page = () => {
             height: "60vh",
           }}
         >
-          <div className="md:w-3/5 text-black pl-[100px]">
-            <h4 className="text-black font-medium">
+          <div className="md:w-4/5 m-auto text-black ">
+          <div className="w-3/5">
+
+            <h4 className="text-black font-medium py-10">
               Have Any Question ? Write a Message
             </h4>
             <div>
@@ -179,7 +181,7 @@ const Page = () => {
             </div>
             <button className="bg-black text-white p-3 rounded-3xl mt-5">Send Message</button>
           </div>
-        </div>
+        </div></div>
       </section>
       <section>
       </section>
