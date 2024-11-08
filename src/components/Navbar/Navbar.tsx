@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="lg:flex justify-between items-center p-3 h-16 z-40 bg-black">
+            <nav className="lg:flex justify-between items-center p-3 h-16 z-40 bg-black fixed w-full">
                 <div className='lg:flex justify-between items-center h-16 lg:w-[1450px] mx-auto'>
                     
                         <div className='flex justify-between items-center'>

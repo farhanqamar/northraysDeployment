@@ -32,7 +32,7 @@ const AcadmyNavbar = () => {
   };
 
   return (
-    <nav className="bg-[#F2F5FA] shadow-md border-b-2 fixed top-0 w-full p-4">
+    <nav className="bg-[#F2F5FA] shadow-md border-b-2 fixed top-16 w-full p-4">
       <div className='flex justify-between items-center relative 2xl:w-[1440px] m-auto'>
         {/* Left - Logo */}
         <div className="flex items-center space-x-4">

@@ -5,8 +5,8 @@ import AboutUs from "./components/home/AboutUs";
 import Services from "./components/home/Services";
 import Technology from "./components/home/Technology";
 import Featured from "./components/home/Featured";
-import Lontacts from "./components/home/Contacts";
-import Footer from "@/components/Footer";
+// import Lontacts from "./components/home/Contacts";
+import Reviews from './components/home/Reviews';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -34,8 +34,9 @@ export default function Home() {
       <Services />
       <Technology />
       <Featured />
-      <Lontacts />
-      <Footer />
+<Reviews/>
+      {/* <Lontacts /> */}
+      {/* <Footer /> */}
     </>
   );
 }

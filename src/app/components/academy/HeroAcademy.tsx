@@ -10,7 +10,7 @@ const HeroAcademy = () => {
 
   return (
     <>
-      <div className="flex lg:w-4/6 mx-auto justify-around items-center pt-20">
+      <div className="flex lg:w-4/6 mx-auto justify-around items-center pt-40">
         <div className="md:w-3/6 w-full px-5">
           <h2>Learn Without Limits</h2>
           <p className="md:text-[18px] text-sm text-justify">
